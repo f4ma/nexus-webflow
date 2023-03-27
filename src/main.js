@@ -1,8 +1,14 @@
-import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
 import './styles/style.css'
+import { cardstackAnimation } from './features/cardstackAnimation'
+import { carroselEl } from './features/carroselEl'
+import { counterUp } from './features/counterUP'
+import { gamecardAnimation } from './features/gamecardAnimation'
+import { scrollSmoth } from './features/scrollSmooth'
+import { tabsAnimation } from './features/tabsAnimation'
 
-console.log('Welcome to Vite + JS + Webflow!')
-
-createBadge()
-animateTitle()
+gamecardAnimation()
+scrollSmoth()
+tabsAnimation()
+cardstackAnimation()
+counterUp()
+carroselEl()
