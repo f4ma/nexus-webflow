@@ -4,11 +4,11 @@ import { carroselEl } from './features/carroselEl'
 import { counterUp } from './features/counterUP'
 import { gamecardAnimation } from './features/gamecardAnimation'
 import { scrollSmoth } from './features/scrollSmooth'
-import { tabsAnimation } from './features/tabsAnimation'
+//import { tabsAnimation } from './features/tabsAnimation'
 
 gamecardAnimation()
 scrollSmoth()
-tabsAnimation()
+//tabsAnimation()
 cardstackAnimation()
 counterUp()
 carroselEl()
