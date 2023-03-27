@@ -4,7 +4,7 @@ import Splide from '@splidejs/splide'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger, Observer)
+gsap.registerPlugin(ScrollTrigger)
 
 export function carroselEl() {
   window.Webflow ||= []
